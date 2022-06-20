@@ -1,6 +1,22 @@
 # Customer-Churn-Prediction
 Churn rate is a critical metric of customer satisfaction. Low churn rates mean happy customers; high churn rates mean customers are leaving you. 
 
+## Importance of Customer churn prediction
+
+- Good way to create proactive marketing campaigns targeted at the customers that are about to churn
+- Identifying at-risk customers
+- Identifying customer pain points
+- Identifying strategy/methods to lower churn and increase customer retention
+
+## Churn Prediction workflow
+
+- Defining problem and goal: An important financial institution is interested in analyzing its client database to increase the revenue generated from credit cardholders. They are concern about customers closing their bank accounts after accepting products from other institutions.
+- Establishing data source: Some popular sources of churn data are CRM systems, analytics services, and customer feedback.
+- Data preparation, exploration, and preprocessing:
+- Modeling and testing:
+-Deployment and monitoring:
+
+
 ## Mission objectives
 
 - Build machine learning models for classification and clustering.
@@ -43,6 +59,8 @@ _The churn rate, also known as the rate of attrition or customer churn, is the r
 The dataset can be downloaded on the following link:
 
 [Credit Card Customers](https://www.kaggle.com/sakshigoyal7/credit-card-customers)
+
+
 
 
 ## Technical Evaluation criteria
