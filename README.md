@@ -17,66 +17,64 @@ Churn rate is a critical metric of customer satisfaction. Low churn rates mean h
 -Deployment and monitoring:
 
 
-## Mission objectives
-
-- Build machine learning models for classification and clustering.
-- Select the right performance metrics for your model.
-- Identify the optimal number of clusters and be able to describe them.
-- Tuning parameters of the model for better performance.
-- Describe the results from unsupervised learning.
-- Deploy your findings in a dashboard that highlights the business insights.
-
-## The Mission
-
-An important financial institution is interested in analyzing its client database to increase the revenue generated from credit cardholders. They are concern about customers closing their bank accounts after accepting products from other institutions.
-
-The churn rate is above 15% and increasing, the CEO urges the marketing team to start a marketing campaign for client retention.
-
-Your mission:
-
-- Predict those clients with more propensity to close their bank account with the financial institution
-- Find possible groups of clients and define their characteristics. This will help the marketing team to design custom-made campaigns to increase customer retention.
-- Build a dashboard with data insights and KPIs.
-
-#### What is Churn Rate ?
-
-_The churn rate, also known as the rate of attrition or customer churn, is the rate at which customers stop doing business with an entity. It is most commonly expressed as the percentage of service subscribers who discontinue their subscriptions within a given time period._
-
-[More info](https://www.investopedia.com/terms/c/churnrate.asp)
-
-![(GIF)](https://media.giphy.com/media/fDO2Nk0ImzvvW/giphy.gif)
-
-### Must-have features
-
-- The performance metrics of the model must be clearly defined.
-- Evaluation of the model's performance and definition of its limitations.
-- Different unsupervised learning algorithms were explored.
-- Explanation of the results obtained using unsupervised learning.
-- The dashboard is deployed online.
-
-### Miscellaneous information
-
-The dataset can be downloaded on the following link:
-
-[Credit Card Customers](https://www.kaggle.com/sakshigoyal7/credit-card-customers)
+<h2> <align="center">Customer-Churn-Prediction</h1>
+<p align="center"><img src="https://tse1.mm.bing.net/th?id=OIP.AhveViSfye8s9xDhHCZXBAEsCU&pid=Api&rs=1&c=1&qlt=95&w=197&h=98" width="500" height="300"></p>
 
 
+## Host organization:
+* <a href="https://github.com/becodeorg"><strong>BeCode</strong></a>(Ghent campus)
+<img src="https://becode.org/app/uploads/2021/06/logo-becode.png" alt="Logo" width="200" height="200">
+  
+
+## The timeline of the project:
+14 days - **20/06/2022 - 01/07/2022**
+
+## Project Goal: 
+*Predict those clients with more propensity to close their bank account with the financial institution*
 
 
-## Technical Evaluation criteria
+## Dataset details:
 
-- Publish clean and readable code on GitHub.
-- README has the format specified in the #Deliverables section.
-- An EDA (Exploratory Data Analysis) was performed.
-- The data was cleaned and preprocessed.
-- The choice of performance metrics can be explained.
-- The choice of model can be explained.
-- The results and limitations of the algorithms can be explained.
-- The effects of overfitting or underfitting were studied and corrected.
+BankChurners.csv with attributes:
+    (Clientnum, Attrition_flag, Customer_age, Gender, Dependent_count, Education_level, Martial_status, Income_category, card_category, months_on_book, Total_Revolving_Bal, Avg_Open_To_Buy, Total_Trans_Amt, Total_Amt_Chng_Q4_Q1, Total_Trans_Ct, Total_Ct_Chng_Q4_Q1, Avg_Utilization_Ratio, 
 
-## A final note of encouragement
 
-“Talent wins games, but teamwork and intelligence wins championships.” Michael Jordan
+## Description:
 
-![Let's do it(GIF)](https://media.giphy.com/media/dvNdqXOdldyJlH2Ank/giphy.gif)
+This project is the Final Project of our AI bootcamp. In this project, we are required to understand the data given, identify which activities should be done, analyze the data using exploratory and visualization, do the data-preprocessing, as well as develop model which relevant with the problem along with the evaluation within a predetermined period of time.
 
+The steps we have taken:
+* Understanding the data
+* Target Feature Exploration
+* Correlations between feature and the attrition flag.
+* Statistical exploration of feature that cause customer churn or not  
+* Model Evaluation and selection.
+* Feature Importance selection. 
+  
+
+## Used Language and Libraries:
+Python libraries:
+* Numpy
+* Pandas 
+* Scikit-learn
+* Matplotlib
+* Seaborn 
+
+
+## Conclusion
+
+The most important features to understand customer credit card churn, are
+
+- Total Transaction Count
+
+- Total Transaction Amount
+
+- Total Revolving Balance
+
+- Total Count Change Q4 to Q1
+
+- Months_Inactive_12_mon 
+
+After several experiments, we can learn that RandomForest may be the best performing model for this data set.
+
+The actual performance of the model is unknown in the real world, because we use SMOTE to adjust the data set.
